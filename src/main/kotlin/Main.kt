@@ -8,7 +8,10 @@ fun main() {
 
    val sortedPeople = people.sortedByDescending { it.age }
     println(sortedPeople)
-    println(arrStrings("John","Jane","Jean"))
+
+
+    var names =arrStrings("John","Jane","Jean")
+    println(names.contentToString())
 
     val cars = listOf(
         Vehicle("KDE 767", 7000.0),
